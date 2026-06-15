@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LastLine Finance</title>
+    <link rel="icon" type="image/png" href="icon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .form-section-header { background-color: #e23d32; color: white; padding: 12px 16px; font-weight: 600; font-size: 1.125rem; margin-bottom: 16px; }
+        .input-field { width: 100%; border: 1px solid #d1d5db; padding: 10px 12px; font-size: 0.875rem; color: #6b7280; outline: none; }
+        .input-field:focus { border-color: #e23d32; }
+    </style>
+</head>
+
+ <body>
+    
+    <div id="loader"></div>
+
+     <nav class="bg-white px-8 py-4 flex justify-between items-center shadow-sm">
+        <div class="text-[#00bfff] font-bold text-2xl tracking-tight">LastLine Finance</div>
+        <div class="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
+            <a href="./index.html" class="hover:text-red-500">Home</a>
+            <a href="./About Us.html" class="hover:text-red-500">About US</a>
+            <a href="./Our Services.html" class="hover:text-red-500">Our Services</a>
+            <a href="./Our Cases.html" class="hover:text-red-500">Our Cases</a>
+            <a href="./partners.html" class="hover:text-red-500">Partners</a>
+            <a href="./contract.html" class="hover:text-red-500">Contact</a>
+        </div>
+        <button class="bg-[#162440] text-white px-6 py-2 text-sm font-medium hover:bg-[#0053b8] transition transform hover:scale-105">Apply now</button>
+    </nav>
+
+    <header class="bg-gradient-to-r from-[#000080] to-[#00bfff] text-white py-16 text-center">
+        <h1 class="text-3xl font-bold mb-2">Essential Information Overview</h1>
+        <p class="text-sm font-medium opacity-90">Navigating the Important Aspects with Ease</p>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-12">
+        <form class="space-y-8 bg-transparent">
+
+            <div>
+                <div class="form-section-header bg-gradient-to-r from-[#000080] to-[#00bfff]
+                ">Business Information</div>
+                <div class="grid grid-cols-1 md:grid-cols-3  gap-4 mb-4">
+                    <input type="text" placeholder="Legal Company Name" class="input-field bg-white">
+                    <input type="text" placeholder="Doing Business As (DBA)" class="input-field bg-white">
+                    <select class="input-field bg-white text-gray-400">
+                        <option>Select Legal Entity</option>
+                    </select>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4">
+                    <input type="text" placeholder="Federal Tax ID" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="City" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="State" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="Zip Code" class="input-field bg-white md:col-span-1">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <select class="input-field bg-white text-gray-400">
+                        <option value="Rent">Rent </option>
+                        <option value="Own">Own</option>
+                    </select>
+                    <input type="text" placeholder="Landlord Name" class="input-field bg-white">
+                    <input type="text" placeholder="Landlord Contact" class="input-field bg-white">
+                </div>
+            </div>
+
+            <div>
+                <div class="form-section-header bg-gradient-to-r from-[#000080] to-[#00bfff]
+                ">Required For Recommended Loan Amount</div>
+                <div class="grid grid-cols-1 gap-4 mb-4">
+                    <input type="text" placeholder="Outstanding Balance" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <input type="text" placeholder="Annual Business Revenue" class="input-field bg-white">
+                    <input type="text" placeholder="Average Bank Balance" class="input-field bg-white">
+                    <input type="text" placeholder="Monthly Deposite" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <input type="text" placeholder="Loan Amount Requested" class="input-field bg-white">
+                    <input type="text" placeholder="Outstanding Balance" class="input-field bg-white">
+                </div>
+            </div>
+
+            <div>
+                <div class="form-section-header bg-gradient-to-r from-[#000080] to-[#00bfff]
+                ">Merchant/Owner Information</div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <input type="text" placeholder="First Name" class="input-field bg-white">
+                    <input type="text" placeholder="Middle Name" class="input-field bg-white">
+                    <input type="text" placeholder="Last Name" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <input type="email" placeholder="Email Address" class="input-field bg-white">
+                    <input type="text" placeholder="Telephone" class="input-field bg-white">
+                    <input type="text" placeholder="Cellphone" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <input type="text" placeholder="Social Security Number (SSN)" class="input-field bg-white">
+                    <input type="text" placeholder="Date of Birth" class="input-field bg-white">
+                    <input type="text" placeholder="Ownership %" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <input type="text" placeholder="Home Street Address" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="City" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="State" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="Zip Code" class="input-field bg-white md:col-span-1">
+                </div>
+            </div>
+
+            <div>
+                <div class="form-section-header bg-gradient-to-r from-[#000080] to-[#00bfff]
+                ">Partner Information</div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <input type="text" placeholder="First Name" class="input-field bg-white">
+                    <input type="text" placeholder="Middle Name" class="input-field bg-white">
+                    <input type="text" placeholder="Last Name" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <input type="email" placeholder="Email Address" class="input-field bg-white">
+                    <input type="text" placeholder="Telephone" class="input-field bg-white">
+                    <input type="text" placeholder="Cellphone" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                    <input type="text" placeholder="Social Security Number (SSN)" class="input-field bg-white">
+                    <input type="text" placeholder="Date of Birth" class="input-field bg-white">
+                    <input type="text" placeholder="Ownership %" class="input-field bg-white">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <input type="text" placeholder="Home Street Address" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="City" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="State" class="input-field bg-white md:col-span-1">
+                    <input type="text" placeholder="Zip Code" class="input-field bg-white md:col-span-1">
+                </div>
+            </div>
+
+            <div class="space-y-3 text-sm text-gray-700 mt-6">
+                <div class="flex items-center space-x-6">
+                    <label class="flex items-center"><input type="checkbox" class="mr-2"> Is Your Business Seasonal?</label>
+                    <label class="flex items-center"><input type="checkbox" class="mr-2"> Any Open Bankruptcies?</label>
+                    <label class="flex items-center"><input type="checkbox" class="mr-2"> Any Judgements/Liens?</label>
+                </div>
+                <label class="flex items-start">
+                    <input type="checkbox" class="mr-2 mt-1"> 
+                    <span>If you are applying for individual credit in your name and are relying on your own income or assets and not the income of assets of another person as the basis for repayment complete Owner Information (1) and omit Owner Information (2).</span>
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> If this is an application for joint credit with another person, complete Owner Information (1) and (2).
+                </label>
+            </div>
+
+            <div class="mt-6 flex items-center border border-gray-300 p-4 bg-white w-72 justify-between">
+                <div class="flex items-center">
+                    <input type="checkbox" class="mr-3 w-5 h-5"> 
+                </div>
+                <div class="text-[10px] text-gray-400 flex flex-col items-center">
+                   <form onsubmit="return checkRobot()">
+
+                     <input type="checkbox" id="robot"> I am not a robot<br><br>
+                   </form>
+                </div>
+            </div>
+                 
+            <a href="mailto:flipfinance@gmail.com"><button type="submit" class="mt-8 bg-[#000080] text-white px-8 py-3 text-sm font-medium hover:bg-[#00bfff] transition">Submit Application</button></a>
+        </form>
+    </main>
+
+    <footer class="bg-[#2d2d2d] text-gray-400 py-12 text-sm mt-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <div class="text-[#00bfff] font-bold text-xl mb-4">LastLine Finance</div>
+                <p class="mb-4 text-xs">Providing expert financial guidance to companies of all sizes since 2005.</p>
+                <div class="flex space-x-4">
+                    <span class="cursor-pointer hover:text-white">f</span>
+                    <span class="cursor-pointer hover:text-white">t</span>
+                    <span class="cursor-pointer hover:text-white">in</span>
+                    <span class="cursor-pointer hover:text-white">ig</span>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">Recent News</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#" class="hover:text-white">How to grow your assets in 2024</a></li>
+                    <li><a href="#" class="hover:text-white">Top 5 financial strategies for startups</a></li>
+                    <li><a href="#" class="hover:text-white">Understanding market volatility</a></li>
+                    <li><a href="#" class="hover:text-white">M&A trends to watch this year</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">Useful Links</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="./About Us.html" class="hover:text-white">About Us</a></li>
+                    <li><a href="./services.html" class="hover:text-white">Our Services</a></li>
+                    <li><a href="./cases.html" class="hover:text-white">Case Studies</a></li>
+                    <li><a href="./blog.html" class="hover:text-white">Latest News</a></li>
+                    <li><a href="./careers.html" class="hover:text-white">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">Contact Form</h4>
+                <form class="space-y-3">
+                    <input type="text" placeholder="Your Name" class="w-full bg-transparent border-b border-gray-600 p-2 text-xs outline-none focus:border-[#000080]">
+                    <input type="email" placeholder="Email Address" class="w-full bg-transparent border-b border-gray-600 p-2 text-xs outline-none focus:border-[#000080]">
+                    <button class="bg-[#000080] text-white px-4 py-2 mt-2 hover:bg-[#00bfff] transition">Submit Now</button>
+                </form>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 mt-12 pt-6 border-t border-gray-700 flex justify-between items-center text-[10px]">
+            <p>© 2024 LastLine Finance. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="./privacy-policy.html" class="hover:text-white">Privacy Policy</a>
+                <a href="./terms-of-service.html" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+  </body>
+ </html>

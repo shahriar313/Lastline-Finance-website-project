@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LastLine Finance</title>
+    <link rel="icon" type="image/png" href="icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .form-section-header { background-color: #e23d32; color: white; padding: 12px 16px; font-weight: 600; font-size: 1.125rem; margin-bottom: 16px; }
+        .input-field { width: 100%; border: 1px solid #d1d5db; padding: 10px 12px; font-size: 0.875rem; color: #6b7280; outline: none; }
+        .input-field:focus { border-color: #e23d32; }
+    </style>
+</head>
+
+
+<body>
+
+ <div id="loader"></div>
+
+     <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="contact-info">
+                <span><i class="fa-regular fa-envelope"></i> info@financity.com</span>
+                <span><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</span>
+            </div>
+            <div class="social-hours">
+                <span>Mon - Fri: 9:00 - 19:00</span>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-solid fa-rss"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header id="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                <span>LastLine Finance</span>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="./About Us.html">About Us</a></li>
+                    <li><a href="./Our Services.html">Our Services</a></li>
+                    <li><a href="./Our Cases.html">Our Cases</a></li>
+                    <li><a href="./Partners.html">Partners</a></li>
+                    <li><a href="./contract.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="./apply now.html" class="btn btn-primary desktop-only"> Apply Now</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <p class="subtitle">We help you manage your financial needs</p>
+            <h1>We help<br>growing business</h1>
+            <p class="description">We help you manage your finances, provide financial advice, make the most out of your income, and grow your business.</p>
+            <div class="hero-buttons">
+                <a href="./apply now.html" class="btn btn-primary">Get Started</a>
+                <a href="#" class="btn btn-outline"><i class="fa-regular fa-circle-play"></i> Watch Video</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features container">
+        <div class="feature-box">
+            <div class="icon-wrapper"><i class="fa-regular fa-clock"></i></div>
+            <div class="feature-text ">
+                <h3>On Time Service</h3>
+                <p>We are always there for our clients, delivering on time and with great care.</p>
+            </div>
+        </div>
+        <div class="feature-box">
+            <div class="icon-wrapper"><i class="fa-solid fa-users"></i></div>
+            <div class="feature-text">
+                <h3>A Team Of Professionals</h3>
+                <p>Our team of dedicated professionals bring expertise and passion to every project.</p>
+            </div>
+        </div>
+        <div class="feature-box">
+            <div class="icon-wrapper"><i class="fa-solid fa-arrow-trend-up"></i></div>
+            <div class="feature-text ">
+                <h3>Analyse Your Business</h3>
+                <p>We dive deep into your numbers to identify opportunities and optimize performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services section-padding">
+        <div class="container">
+            <div class="section-header text-center fadeup">
+                <p class="subtitle text-blue">WHAT WE OFFER</p>
+                <h2>Services We Provide</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card fadeup">
+                    <div class="icon-wrapper"><i class="fa-solid fa-building-columns"></i></div>
+                    <h3>Capital Markets</h3>
+                    <p>Providing top-tier capital market solutions in equities, bonds, derivatives, and portfolio management.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card fadeup">
+                    <div class="icon-wrapper"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Insurance</h3>
+                    <p>From life to property, we help you choose the best insurance plans tailored to your lifestyle.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card fadeup">
+                    <div class="icon-wrapper"><i class="fa-solid fa-book-open"></i></div>
+                    <h3>Accounting</h3>
+                    <p>Managing your books, taxes, and audits with precision and full regulatory compliance.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card fadeup">
+                    <div class="icon-wrapper"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Technology Advisory</h3>
+                    <p>Aligning technology strategy with your business goals for digital transformation.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card fadeup">
+                    <div class="icon-wrapper"><i class="fa-solid fa-dollar-sign"></i></div>
+                    <h3>Finance & More</h3>
+                    <p>Comprehensive financial consulting, forecasting, modeling, investment, and risk analysis.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card fadeup">
+                    <div class="icon-wrapper"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3>Purchase Management</h3>
+                    <p>Streamlining procurement and vendor management to reduce costs and boost efficiency.</p>
+                    <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container cta-container">
+            <div class="cta-text">
+                <h2>Wanna Talk To Us?</h2>
+                <p>Please feel free to get in touch with us at any time. We will get back to you as soon as possible.</p>
+            </div>
+            <a href="./contract.html" class="btn btn-white">Contact Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section class="cases section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center fadeup">
+                <p class="subtitle text-blue">PORTFOLIO</p>
+                <h2>Our Cases</h2>
+            </div>
+            
+            <div class="cases-grid">
+                <div class="case-card fadeup">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=400" alt="Startup Funding">
+                    <div class="case-content">
+                        <h3>Startup Funding</h3>
+                        <p>Providing tailored startup funding solutions with venture capital and angel investor networks.</p>
+                        <a href="./startup-funding.html" class="learn-more">View case <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-card fadeup">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400" alt="Family Asset Management">
+                    <div class="case-content">
+                        <h3>Family Asset Management</h3>
+                        <p>Helping families preserve and grow wealth across generations with personalized strategies.</p>
+                        <a href="./family-asset-management.html" class="learn-more">View case <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-card fadeup">
+                    <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=400" alt="Accounting Advisory">
+                    <div class="case-content">
+                        <h3>Accounting Advisory</h3>
+                        <p>Expert accounting advisory for mid-size businesses navigating complex regulatory environments.</p>
+                        <a href="#" class="learn-more">View case <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-card fadeup">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=400" alt="Merger & Acquisition">
+                    <div class="case-content">
+                        <h3>Merger & Acquisition</h3>
+                        <p>End-to-end M&A advisory: due diligence, valuation, negotiation, and post-merger integration.</p>
+                        <a href="#" class="learn-more">View case <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-40">
+                <a href="#" class="btn btn-outline-blue">View All Cases</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="expertise-split">
+        <div class="expertise-left">
+            <div class="expertise-overlay">
+                <h2>We are an expert in our field</h2>
+                <ul class="check-list">
+                    <li><i class="fa-solid fa-circle-check"></i> 20+ years of financial industry expertise</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Over 5,000 satisfied clients worldwide</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Award-winning advisory methodology</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Full regulatory compliance & transparency</li>
+                </ul>
+                <a href="#" class="btn btn-primary mt-20">Read Our Story</a>
+            </div>
+        </div>
+        <div class="expertise-right">
+            <p class="subtitle text-blue">WHY CHOOSE US</p>
+            <h2>We are trusted by more than 5,000 clients</h2>
+            <p class="text-gray mt-20">Financity has spent two decades perfecting the art of financial advisory. We serve individuals, families, and enterprises — delivering measurable outcomes and unmatched professionalism.</p>
+            <p class="text-gray mt-20">We believe every financial decision matters. Our advisors work with you 1-on-1 to craft strategies that work now and grow with you.</p>
+            <a href="#" class="btn btn-primary mt-30">Read Our Story</a>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header text-center text-white">
+                <p class="subtitle text-light-blue">WHAT CLIENTS SAY</p>
+                <h2>Clients' Testimonials</h2>
+            </div>
+
+            <div class="featured-testimonial">
+                <div class="test-avatar large">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith">
+                </div>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h3>"Our goal is to be at the heart of the financial markets and territories."</h3>
+                <div class="author-info">
+                    <strong>John Smith</strong>
+                    <span>CEO, Vantage Corp</span>
+                </div>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="test-card">
+                    <div class="test-header">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Lee" class="small-avatar">
+                        <div>
+                            <strong>Sarah Lee</strong>
+                            <span>CEO, NovaTech</span>
+                        </div>
+                    </div>
+                    <p>"Financity transformed our approach to capital management. Truly world-class advisory."</p>
+                </div>
+                <div class="test-card">
+                    <div class="test-header">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Marcus Drews" class="small-avatar">
+                        <div>
+                            <strong>Marcus Drews</strong>
+                            <span>Partner, Apexia</span>
+                        </div>
+                    </div>
+                    <p>"The team is incredibly responsive and knowledgeable. Best financial partner we have had."</p>
+                </div>
+                <div class="test-card">
+                    <div class="test-header">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Amina Osei" class="small-avatar">
+                        <div>
+                            <strong>Amina Osei</strong>
+                            <span>Director, BrightPath</span>
+                        </div>
+                    </div>
+                    <p>"Switched to Financity 2 years ago and never looked back. Our ROI speaks for itself."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="subtitle text-blue">NUMBERS TELL THE STORY</p>
+                <h2>Our Success Stories</h2>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h2 class="counter" data-target="10000">0</h2>
+                    <p>On-Time Deals</p>
+                </div>
+                <div class="stat-box">
+                    <h2 class="counter" data-target="979">0</h2>
+                    <p>Clients This Year</p>
+                </div>
+                <div class="stat-box">
+                    <h2 class="counter" data-target="300">0</h2>
+                    <p>Avg. Return</p>
+                </div>
+                <div class="stat-box">
+                    <h2><span class="counter" data-target="35">0</span>%</h2>
+                    <p>Avg. ROI Increase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-form-section bg-light pb-60">
+        <div class="container">
+            <div class="cta-form-wrapper">
+                <div class="cta-text">
+                    <h3>Request a call back?</h3>
+                    <p>Please fill out the form and our specialist will call you back within 24 hours.</p>
+                </div>
+                <form class="inline-form" id="callbackForm">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="tel" placeholder="Phone number" required>
+                    <select required>
+                        <option value="" disabled selected>Select service</option>
+                        <option value="funding">Startup Funding</option>
+                        <option value="accounting">Accounting Advisory</option>
+                        <option value="wealth">Wealth Management</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary"><a href="mailto:info@financity.com">Request Now</a></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="footer-col brand-col">
+                <div class="logo footer-logo">
+                    <div class="logo-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                    <span>LastLine Finance</span>
+                </div>
+                <p>Your trusted financial partner for sustainable growth, smart investments, and expert advisory services.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="./index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                    <li><a href="./About Us.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="./Services.html"><i class="fa-solid fa-chevron-right"></i> Services</a></li>
+                    <li><a href="./Our Cases.html"><i class="fa-solid fa-chevron-right"></i> Our Cases</a></li>
+                    <li><a href="./Partners.html"><i class="fa-solid fa-chevron-right"></i> Partners</a></li>
+                    <li><a href="./contract.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul class="footer-links">
+                    <li><a href="./Privacy Policy.html"><i class="fa-solid fa-chevron-right"></i> Privacy Policy</a></li>
+                    <li><a href="./Terms of Service.html"><i class="fa-solid fa-chevron-right"></i> Terms of Service</a></li>
+                    <li><a href="./Cookie Policy.html"><i class="fa-solid fa-chevron-right"></i> Cookie Policy</a></li>
+                    <li><a href="./contract.html"><i class="fa-solid fa-chevron-right"></i> FAQs</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Support Center</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Investor Relations</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h4>Contact Us</h4>
+                <ul class="footer-contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> <span>1234 Financial Ave, Suite 500, New York, NY 10001</span></li>
+                    <li><i class="fa-solid fa-phone"></i> <span>+1 (800) 123-4567</span></li>
+                    <li><i class="fa-solid fa-envelope"></i> <span>info@financity.com</span></li>
+                    <li><i class="fa-regular fa-clock"></i> <span>Mon - Fri: 9:00 - 18:00</span></li>
+                </ul>
+                <a href="./contract.html" class="btn btn-primary mt-20">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2024 LastLine Finance. All rights reserved.</p>
+            <p>Designed with care for financial excellence.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

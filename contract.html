@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Financity</title>
+    <link rel="icon" type="image/png" href="icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .form-section-header { background-color: #e23d32; color: white; padding: 12px 16px; font-weight: 600; font-size: 1.125rem; margin-bottom: 16px; }
+        .input-field { width: 100%; border: 1px solid #d1d5db; padding: 10px 12px; font-size: 0.875rem; color: #6b7280; outline: none; }
+        .input-field:focus { border-color: #e23d32; }
+    </style>
+</head>
+<body>
+    
+ <div id="loader"></div>
+
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="contact-info">
+                <span><i class="fa-regular fa-envelope"></i> info@financity.com</span>
+                <span><i class="fa-solid fa-phone"></i> +1 (800) 123-4567</span>
+            </div>
+            <div class="social-hours">
+                <span>Mon - Fri: 9:00 - 19:00</span>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-solid fa-rss"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header id="main-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                <span>LastLine Finance</span>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./About Us.html">About Us</a></li>
+                    <li><a href="./Our Services.html">Our Services</a></li>
+                    <li><a href="./our-cases.html">Our Cases</a></li>
+                    <li><a href="./partners.html">Partners</a></li>
+                    <li><a href="./contract.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="./apply now.html" class="btn btn-primary desktop-only">Apply Now</a>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h1>Contact us</h1>
+            <p class="breadcrumb">HOME &nbsp;/&nbsp; CONTACT US</p>
+        </div>
+    </section>
+
+    <section class="map-section section-padding">
+        <div class="container">
+            <div class="office-tabs">
+                <div class="tab active" data-target="chicago">Chicago Office</div>
+                <div class="tab" data-target="washington">Washington Office</div>
+                <div class="tab" data-target="newyork">New York Office</div>
+                <div class="tab" data-target="london">London Office</div>
+            </div>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3492.6915539671822!2d90.41464407505089!3d23.83614958547945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c770d073a57d%3A0xf5dc5e0f148e3330!2sDhaka%20Stock%20Exchange%20LTD.!5e1!3m2!1sen!2sbd!4v1781468096424!5m2!1sen!2sbd" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-details-section pb-60">
+        <div class="container contact-grid">
+            
+            <div class="contact-info-col">
+                <h2>Get in Touch</h2>
+                <div class="divider"></div>
+                <p class="address mt-20">70 W. Madison Street, Ste. 1400 Chicago, IL 60602</p>
+                
+                <ul class="info-list">
+                    <li><a href="tel:+12145500405"><i class="fa-solid fa-phone"></i> (214) 550-0405</a></li>
+                    <li><a href="tel:+12905809595"><i class="fa-solid fa-desktop"></i> (290) 580-9595</a></li>
+                    <li><a href="mailto:info@financity.com"><i class="fa-regular fa-envelope"></i> info@financity.com</a></li>
+                </ul>
+
+                <h2 class="mt-40">Working Hours</h2>
+                <div class="divider"></div>
+                
+                <div class="working-hours mt-20">
+                    <div class="hour-row">
+                        <strong>Monday to Friday</strong>
+                        <span>8.00am - 5.30pm</span>
+                    </div>
+                    <div class="hour-row">
+                        <strong>Saturday</strong>
+                        <span>9.00am - 2.00pm</span>
+                    </div>
+                    <div class="hour-row">
+                        <strong>Sunday</strong>
+                        <span>Closed</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-col">
+                <form id="mainContactForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="First name" required>
+                        <input type="text" placeholder="Last name" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="Your E-mail" required>
+                        <input type="tel" placeholder="Your Phone Number">
+                    </div>
+                    <div class="form-row">
+                        <input type="url" placeholder="Website">
+                        <select required>
+                            <option value="" disabled selected>Department</option>
+                            <option value="support">Customer Support</option>
+                            <option value="sales">Sales</option>
+                            <option value="hr">Human Resources</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Your message" rows="6" required></textarea>
+                    <button type="submit" class="btn btn-dark" a href="mailto:info@financity.com">SEND A MESSAGE</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bottom-cta fadeup">
+        <div class="container cta-flex">
+            <h2>Make A Difference With <span class="text-green">Expert Team</span></h2>
+            <a href="./apply now.html" class="btn btn-green">LET'S WORK TOGETHER <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-top">
+            <div class="footer-col brand-col">
+                <div class="logo footer-logo">
+                    <div class="logo-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                    <span>LastLine Finance</span>
+                </div>
+                <p>Your trusted financial partner for sustainable growth, smart investments, and expert advisory services.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul class="footer-links">
+                    <li><a href="./About Us.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="./Our Cases.html"><i class="fa-solid fa-chevron-right"></i> Casestudies</a></li>
+                    <li><a href="./Services.html"><i class="fa-solid fa-chevron-right"></i> Services</a></li>
+                    <li><a href="./How We Work.html"><i class="fa-solid fa-chevron-right"></i> How we work</a></li>
+                    <li><a href="./Our History.html"><i class="fa-solid fa-chevron-right"></i> Our history</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h4>Get in Touch</h4>
+                <ul class="footer-contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> <span>70 W. Madison Street, Ste. 1400 Chicago, IL 60602</span></li>
+                    <li><i class="fa-solid fa-phone"></i> <span>(214) 550-0405</span></li>
+                    <li><i class="fa-solid fa-envelope"></i> <span>info@financity.com</span></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p class="mb-15" style="color: var(--light-gray-text); font-size: 0.9rem;">Signup for our latest case studies.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address..." required>
+                    <a href="mailto:info@financity.com">
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </a>
+                </form>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 LastLine Finance. All Rights Reserved</p>
+            <div class="footer-bottom-links">
+                <a href="./contract.html">Contact us</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
